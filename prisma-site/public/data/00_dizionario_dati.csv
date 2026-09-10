@@ -1,0 +1,95 @@
+file,campo,tipo,descrizione,esempio
+01_stakeholder_ecosistema.csv,id,testo,identificativo univoco kebab-case,attc
+01_stakeholder_ecosistema.csv,nome,testo,nome dell'attore,Area Trasferimento Tecnologico e della Conoscenza
+01_stakeholder_ecosistema.csv,livello,enum,ateneo | locale | nazionale | internazionale,locale
+01_stakeholder_ecosistema.csv,tipo,enum,struttura | organo | incubatore | parco | ecosistema | pa | impresa | rete | programma | piattaforma | ufficio | fondazione | ateneo | ricerca | patrimonio_culturale,incubatore
+01_stakeholder_ecosistema.csv,sotto_area,testo,dominio tematico prevalente se rilevante,scienze della vita
+01_stakeholder_ecosistema.csv,descrizione_ruolo,testo,cosa fa e perche' e' rilevante per PR.I.S.MA.,
+01_stakeholder_ecosistema.csv,sito_web,url,sito ufficiale,https://www.2i3t.it
+01_stakeholder_ecosistema.csv,email_contatto,testo,solo caselle istituzionali; vuoto se non raccolta,ufficio.brevetti@unito.it
+01_stakeholder_ecosistema.csv,contatto_tipo,enum,istituzionale | da_raccogliere,istituzionale
+01_stakeholder_ecosistema.csv,citta_regione,testo,localizzazione fisica se pertinente,Torino
+01_stakeholder_ecosistema.csv,stato_verifica,enum,verificato | da_verificare,verificato
+01_stakeholder_ecosistema.csv,fonte,testo,da dove viene l'informazione,sito ufficiale unito.it
+01_stakeholder_ecosistema.csv,note,testo,precisazioni e avvertenze,
+02_connessioni_ecosistema.csv,id,testo,identificativo univoco della relazione,c001
+02_connessioni_ecosistema.csv,origine_id,testo,id dello stakeholder di partenza (rif. file 01),unito-attc
+02_connessioni_ecosistema.csv,destinazione_id,testo,id dello stakeholder di arrivo (rif. file 01),2i3t
+02_connessioni_ecosistema.csv,tipo_connessione,enum,parte_di | membro_di | finanzia | finanziato_da | collabora_con | alimenta | regola | eroga_servizi_a | convenzione_con | potenziale_collaborazione,convenzione_con
+02_connessioni_ecosistema.csv,stato,enum,esistente | lacuna | ipotizzata,esistente
+02_connessioni_ecosistema.csv,priorita,enum,alta | media | bassa; solo per stato=lacuna o ipotizzata,alta
+02_connessioni_ecosistema.csv,motivazione,testo,perche' la relazione esiste o perche' varrebbe la pena crearla,
+02_connessioni_ecosistema.csv,fonte,testo,verificato su fonte o ragionamento del compilatore,
+03_glossario_concetti.csv,id,testo,identificativo univoco,freedom-to-operate
+03_glossario_concetti.csv,termine,testo,voce del glossario in italiano,Freedom to Operate
+03_glossario_concetti.csv,termine_en,testo,traduzione inglese del termine,Freedom to Operate
+03_glossario_concetti.csv,acronimo_esteso,testo,forma estesa se il termine e' un acronimo altrimenti vuoto,FTO = Freedom To Operate
+03_glossario_concetti.csv,area,enum,IP | processo_TT | policy_IT | policy_UE | metriche | valorizzazione_SSH,IP
+03_glossario_concetti.csv,definizione_breve,testo,definizione in una frase,
+03_glossario_concetti.csv,esempio_applicato,testo,esempio calato sul contesto UniTo,
+03_glossario_concetti.csv,termini_correlati,testo,altri id separati da punto e virgola,prior-art;patentability
+03_glossario_concetti.csv,fonte_id,testo,riferimento al file 04,src-cpi-2005
+04_fonti.csv,id,testo,identificativo univoco,src-cpi-2005
+04_fonti.csv,titolo,testo,titolo del documento o norma,Codice della Proprieta' Industriale
+04_fonti.csv,editore,testo,chi lo pubblica,Normattiva
+04_fonti.csv,tipo,enum,norma | bando | regolamento_unito | report | policy_UE | sito,norma
+04_fonti.csv,url,url,link alla fonte,
+04_fonti.csv,data,data,data del documento,2005-02-10
+04_fonti.csv,livello_affidabilita,enum,A_primaria | B_istituzionale | C_secondaria,A_primaria
+04_fonti.csv,note_locator,testo,articolo o pagina specifica,artt. 45-50
+05_argomenti_esame.csv,id,testo,identificativo,a1
+05_argomenti_esame.csv,argomento,testo,testo dell'art. 7 del bando,
+05_argomenti_esame.csv,livello_richiesto,testo,come lo qualifica il bando,ottima conoscenza
+05_argomenti_esame.csv,priorita_studio,intero 1-4,1=massima priorita,1
+05_argomenti_esame.csv,contenuto_chiave,testo,cosa sapere,
+06_numeri_chiave.csv,gruppo,testo,categoria del dato,Proventi
+06_numeri_chiave.csv,domanda,testo,la domanda da porsi,
+06_numeri_chiave.csv,risposta,testo,il numero,50%
+06_numeri_chiave.csv,fonte,testo,articolo di riferimento,Brevetti art. 18
+07_requisiti_evidenze.csv,requisito,testo,competenza richiesta dal bando o dal progetto,
+07_requisiti_evidenze.csv,fonte_requisito,testo,da dove viene il requisito,
+07_requisiti_evidenze.csv,evidenza,testo,prova concreta a supporto,
+07_requisiti_evidenze.csv,stato,enum,lacuna | parziale | solida,parziale
+08_domande_colloquio.csv,gruppo,testo,tema della domanda,Proprieta' intellettuale
+08_domande_colloquio.csv,domanda,testo,il quesito,
+08_domande_colloquio.csv,traccia_risposta,testo,ossatura della risposta,
+09_fasi_progetto_proposta_kt.csv,fase_numero,intero 1-4,fase del progetto PR.I.S.MA.,2
+09_fasi_progetto_proposta_kt.csv,fase_nome,testo,nome della fase,Mappatura e connessione con l'ecosistema
+09_fasi_progetto_proposta_kt.csv,obiettivo,testo,obiettivo dell'azione,
+09_fasi_progetto_proposta_kt.csv,tipo_conoscenza,enum,esplicita | tacita | implicita,tacita
+09_fasi_progetto_proposta_kt.csv,azione,testo,cosa si fa concretamente,
+09_fasi_progetto_proposta_kt.csv,metodo_kt,testo,metodo di trasferimento della conoscenza usato,shadowing
+09_fasi_progetto_proposta_kt.csv,rischio,testo,cosa puo' andare storto,
+09_fasi_progetto_proposta_kt.csv,mitigazione,testo,come si previene o si corregge,
+09_fasi_progetto_proposta_kt.csv,indicatore_valutazione,testo,come si misura il successo,
+09_fasi_progetto_proposta_kt.csv,orizzonte_temporale,testo,quando,mesi 3-6
+10_libreria_sop.csv,id,testo,identificativo,sop-001
+10_libreria_sop.csv,titolo_sop,testo,nome della procedura,
+10_libreria_sop.csv,categoria,testo,area di processo,Scouting
+10_libreria_sop.csv,conoscenza_tipo,enum,esplicita | tacita | implicita,esplicita
+10_libreria_sop.csv,scopo,testo,perche' esiste questa SOP,
+10_libreria_sop.csv,strumenti_necessari,testo,strumenti o sistemi richiesti,
+10_libreria_sop.csv,sintesi_passaggi,testo,passaggi principali separati da >,
+10_libreria_sop.csv,owner,testo,ruolo responsabile del mantenimento,KTM
+10_libreria_sop.csv,stato,enum,bozza | attiva | in_revisione | archiviata,bozza
+10_libreria_sop.csv,versione,testo,numero di versione,0.1
+10_libreria_sop.csv,frequenza_revisione,testo,cadenza di riesame consigliata,trimestrale
+10_libreria_sop.csv,ultimo_aggiornamento,data,ultima modifica,2026-09-09
+11_commissione.csv,nome,testo,nome del commissario,
+11_commissione.csv,ruolo,testo,ruolo nella commissione,
+11_commissione.csv,qualifica,testo,posizione istituzionale,
+12_checklist_kt.csv,id,testo,identificativo,k01
+12_checklist_kt.csv,domanda_checklist,testo,item della checklist,
+12_checklist_kt.csv,categoria,testo,fase del ciclo KT,Cattura
+12_checklist_kt.csv,fase_collegata,intero 1-4 o vuoto,fase del progetto a cui si applica,2
+12_checklist_kt.csv,stato,enum,da_fare | in_corso | fatto,da_fare
+13_confronto_strumenti_km.csv,strumento,testo,nome del software,Notion
+13_confronto_strumenti_km.csv,adatto_a,testo,caso d'uso principale,wiki interni e SOP personalizzabili
+13_confronto_strumenti_km.csv,punti_forza,testo,perche' sceglierlo,
+13_confronto_strumenti_km.csv,piano_gratuito,enum,si | parziale | no,si
+13_confronto_strumenti_km.csv,adatto_per_libreria_sop,enum,alto | medio | basso,alto
+13_confronto_strumenti_km.csv,note,testo,osservazioni,i CSV di questo pacchetto sono importabili come database Notion
+14_dipartimenti_aree_scouting.csv,area,testo,area disciplinare indicata dal bando come meno attiva,fisica
+14_dipartimenti_aree_scouting.csv,dipartimenti_indicativi,testo,dipartimenti UniTo plausibilmente coinvolti,
+14_dipartimenti_aree_scouting.csv,tipo_valorizzazione_prevalente,testo,via di valorizzazione piu' probabile,brevetto
+14_dipartimenti_aree_scouting.csv,note,testo,osservazioni,

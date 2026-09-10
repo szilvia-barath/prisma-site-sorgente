@@ -1,0 +1,49 @@
+id,origine_id,destinazione_id,tipo_connessione,stato,priorita,motivazione,fonte
+c001,unito-sez-pi,unito-attc,parte_di,esistente,,La Sezione e' incardinata nell'Area,organigramma
+c002,unito-attc,unito-direzione,parte_di,esistente,,L'Area afferisce alla Direzione,organigramma
+c003,unito-sez-spinoff,unito-attc,parte_di,esistente,,stessa Area,organigramma
+c004,unito-cbrevetti,unito-sez-pi,eroga_servizi_a,esistente,,valuta le comunicazioni di invenzione gestite dalla Sezione,Regolamento Brevetti art. 9-10
+c005,unito-cspinoff,unito-sez-spinoff,eroga_servizi_a,esistente,,istruisce le domande di spin-off,Regolamento Spin off art. 6-7
+c006,unito-sez-spinoff,2i3t,convenzione_con,esistente,,uso degli spazi regolato da convenzione con l'incubatore,Regolamento Spin off art. 8
+c007,unito-attc,knowledge-share,alimenta,esistente,,UniTo pubblica le proprie schede brevettuali sulla piattaforma,sito UniTo pagina brevetti
+c008,mimit-uibm,netval,collabora_con,esistente,,promotori congiunti di Knowledge Share,ricerca web
+c009,mimit-uibm,knowledge-share,finanzia,esistente,,piattaforma nata da progetto congiunto MIMIT-UIBM,ricerca web
+c010,polito,knowledge-share,collabora_con,esistente,,co-promotore della piattaforma,ricerca web
+c011,mimit-uibm,unito-direzione,finanzia,esistente,,bando UTT 2025-2027 finanzia il progetto PR.I.S.MA. e questo ruolo,bando MIMIT UTT
+c012,unito-attc,compagnia-sanpaolo,finanziato_da,esistente,,Accordo 2025-2026 UniTo-Compagnia; bandi PoC Instrument e PoV finanziati dalla Fondazione,pagine ufficiali bandi PoC/PoV
+c013,compagnia-sanpaolo,ispic,collabora_con,esistente,,ISPIC esegue il bando PoC Instrument per conto della Fondazione,bando PoC Instrument 2026
+c014,ispic,2i3t,collabora_con,esistente,,2i3T collabora all'esecuzione del bando PoC Instrument,bando PoC Instrument 2026
+c015,ispic,i3p,collabora_con,esistente,,I3P collabora all'esecuzione del bando PoC Instrument,bando PoC Instrument 2026
+c016,2i3t,polito,collabora_con,esistente,,ecosistema torinese condiviso incubatori affini,ricerca web
+c017,unito-direzione,nodes,membro_di,esistente,,UniTo guida lo Spoke 2 di NODES sulle green technologies,ricerca web
+c018,polito,nodes,membro_di,esistente,,capofila dell'ecosistema NODES,ricerca web
+c019,unito-direzione,unita-alliance,membro_di,esistente,,UniTo e' ateneo membro dell'alleanza europea UNITA,menu ufficiale sito unito.it
+c020,epo,mimit-uibm,eroga_servizi_a,esistente,,l'EPO svolge la ricerca di anteriorita' per conto dell'UIBM sui depositi italiani,ricerca web
+c021,ip-helpdesk-ue,een,collabora_con,esistente,,il servizio collabora con la rete EEN per il supporto alle PMI,ricerca web
+c022,unito-vipe,unito-opensci,collabora_con,esistente,,entrambe le strutture toccano la terza missione e la disseminazione,organigramma
+c023,regione-s3,nodes,collabora_con,esistente,,l'ecosistema PNRR si allinea alle priorita' S3 regionali,ricerca web
+c024,unito-sez-pi,camcom-torino,potenziale_collaborazione,lacuna,alta,"nessuna convenzione diretta risulta pubblicata; la Camera di commercio ha gia' uno sportello PI proprio, un canale naturale verso le PMI che il progetto deve raggiungere",ragionamento del compilatore
+c025,unito-sez-pi,ui-torino,potenziale_collaborazione,lacuna,alta,collegamento diretto con le imprese manifatturiere torinesi non risulta strutturato; utile per la Fase 3 del progetto,ragionamento del compilatore
+c026,unito-dip-scouting,unito-vipe,potenziale_collaborazione,lacuna,alta,"le aree umanistiche indicate dal bando come meno attive potrebbero passare prima dall'Area Valorizzazione Impatto e Public Engagement che dall'Area Brevetti, essendo la via di valorizzazione spesso non brevettuale",ragionamento del compilatore
+c027,unito-sez-pi,museo-egizio,potenziale_collaborazione,ipotizzata,media,nessuna connessione verificata; il Regolamento Brevetti copre banche dati e software il che potrebbe interessare progetti di valorizzazione digitale del patrimonio,ragionamento del compilatore
+c028,unito-sez-pi,its-piemonte,potenziale_collaborazione,ipotizzata,bassa,possibile canale di formazione e placement per profili tecnici; nessuna connessione verificata,ragionamento del compilatore
+c029,unito-sez-pi,csi-piemonte,potenziale_collaborazione,ipotizzata,media,ente digitale della Regione potenzialmente utile per l'infrastruttura dati del progetto DatiUTT/monitoraggio; nessuna connessione verificata,ragionamento del compilatore
+c030,unito-attc,fondazione-crt,potenziale_collaborazione,lacuna,media,confermato solo un rapporto di finanziamento con il Politecnico; UniTo potrebbe non sfruttare pienamente questo canale,ragionamento del compilatore basato su fonte parziale
+c031,unito-attc,cnr,potenziale_collaborazione,ipotizzata,bassa,nessun collegamento diretto verificato; il CNR ha propri uffici di trasferimento tecnologico con cui scambiare pratiche,ragionamento del compilatore
+c032,unito-attc,kuleuven-lrd,potenziale_collaborazione,ipotizzata,bassa,nessun legame diretto; utile come benchmark di metodo data la maturita' storica dell'ufficio belga,ragionamento del compilatore
+c033,unito-attc,iit,potenziale_collaborazione,ipotizzata,bassa,nessun legame diretto verificato; potenziale scambio di pratiche su spin-off tecnologici,ragionamento del compilatore
+c034,unito-attc,netval,membro_di,esistente,,UniTo e' tra le universita' aderenti a Netval secondo le fonti pubbliche del network,ricerca web
+c035,unito-dip-scouting,bioindustry,potenziale_collaborazione,lacuna,media,il parco e' specializzato in scienze della vita affine al SSD del componente di commissione Catucci; nessuna convenzione diretta verificata con la Sezione PI,ragionamento del compilatore
+c036,unito-attc,astp,potenziale_collaborazione,ipotizzata,media,la formazione ASTP e' uno standard europeo per i professionisti TT; utile per la Fase 1 di inserimento e formazione del nuovo KTM,ragionamento del compilatore
+c037,unito-attc,ip-helpdesk-ue,potenziale_collaborazione,ipotizzata,bassa,servizio gratuito rivolto a PMI e beneficiari di fondi UE potenzialmente utile per i contatti con le imprese della Fase 3,ragionamento del compilatore
+c038,astp,iam4re-project,collabora_con,esistente,,ASTP e' partner del consorzio Horizon Europe IAM4RE,deliverable D2.1
+c039,astp,rmroadmap-project,collabora_con,esistente,,ASTP e' uno degli otto partner del progetto RM Roadmap,overarching roadmap RM Roadmap
+c040,unito-vipe,revalorise-plus,potenziale_collaborazione,ipotizzata,media,programma di formazione SSH europeo non ancora esplorato da UniTo allineato al vuoto confermato dalla ricerca IAM4RE,ragionamento del compilatore
+c041,unito-attc,grenoble-alpes,potenziale_collaborazione,ipotizzata,bassa,entrambi poli europei di deep tech nella mappa Dealroom; nessuno scambio diretto verificato; utile come benchmark di metodo per il rapporto spin-off accademici su startup totali,ragionamento del compilatore
+c042,unito-attc,tum-munich,potenziale_collaborazione,ipotizzata,bassa,TUM tra i primi cinque atenei europei per valore spin-off; nessun legame diretto verificato; benchmark su modelli di incubazione come UnternehmerTUM,ragionamento del compilatore
+c043,unito-attc,vienna-spinoff-project,potenziale_collaborazione,ipotizzata,media,il modello di coordinamento multi-istituzionale viennese tra sette enti e' un caso di studio diretto per come UniTo potrebbe coordinarsi con Politecnico di Torino e 2i3T,ragionamento del compilatore
+c044,polito,grenoble-alpes,potenziale_collaborazione,ipotizzata,bassa,poli confinanti nell'arco alpino non risulta una collaborazione strutturata verificata,ragionamento del compilatore
+c045,netval,revalorise-hackresearch,collabora_con,ipotizzata,alta,nessun collegamento diretto verificato tra Netval e REVALORISE+; entrambi affrontano il vuoto SSH e sarebbe naturale un raccordo,ragionamento del compilatore
+c046,unito-attc,netval-formazione-ssh,potenziale_collaborazione,lacuna,alta,corso gia' esistente e mai utilizzato da UniTo per formare sullo scouting nelle discipline umanistiche,ragionamento del compilatore
+c047,unito-attc,netval-formazione-lifesci,potenziale_collaborazione,lacuna,alta,formazione specialistica gia' disponibile su esattamente la sfida che UniTo ha segnalato nel secondo bando UTT,ragionamento del compilatore
+c048,human-technopole,netval-formazione-lifesci,collabora_con,esistente,,organizzatore del corso Technology Transfer for beginners insieme a Netval e IUSS Pavia,ricerca web

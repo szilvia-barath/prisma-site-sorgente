@@ -1,0 +1,17 @@
+id,domanda_checklist,categoria,fase_collegata,stato
+k01,Sono state individuate le aree di conoscenza critiche e i processi ad alto impatto da documentare per primi,Identificazione,1,da_fare
+k02,Ogni area di conoscenza ha un responsabile che la detiene e un destinatario che la ricevera',Ruoli,1,da_fare
+k03,La conoscenza esplicita gia' disponibile normative regolamenti bandi e' stata raccolta in un formato standard,Cattura,1,in_corso
+k04,La conoscenza tacita di chi gestisce oggi le pratiche e' stata raccolta tramite affiancamento e non solo tramite documenti,Cattura,1,da_fare
+k05,La conoscenza implicita sui flussi informali e' stata fatta emergere con interviste mirate e messa a verbale,Cattura,2,da_fare
+k06,Tutta la conoscenza raccolta e' centralizzata in un unico repository facilmente consultabile,Organizzazione,2,in_corso
+k07,Le sessioni di trasferimento sono programmate con un'agenda chiara e non sovraccaricano i partecipanti,Trasferimento,1,da_fare
+k08,Ogni sessione di trasferimento e' documentata per riferimento futuro,Trasferimento,1,da_fare
+k09,I destinatari hanno occasioni di pratica diretta o affiancamento non solo lettura passiva,Applicazione,1,da_fare
+k10,E' stato verificato che chi riceve la conoscenza l'abbia effettivamente compresa non solo ricevuta,Verifica,1,da_fare
+k11,Esistono revisioni periodiche programmate per mantenere la conoscenza aggiornata,Mantenimento,4,da_fare
+k12,Il completamento delle attivita' di trasferimento viene tracciato e il feedback dei partecipanti raccolto,Valutazione,4,da_fare
+k13,Esiste un modo definito per misurare l'efficacia del trasferimento non solo la sua esecuzione,Valutazione,4,da_fare
+k14,Le SOP sono scritte in modo che una persona che non conosce il processo possa seguirle senza aiuto aggiuntivo,Qualita' SOP,4,da_fare
+k15,Ogni SOP ha un proprietario responsabile del suo aggiornamento,Qualita' SOP,4,da_fare
+k16,Le SOP ad alto impatto sono riviste almeno ogni trimestre quelle meno critiche almeno una volta l'anno,Qualita' SOP,4,da_fare
