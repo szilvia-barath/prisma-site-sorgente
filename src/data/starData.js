@@ -2,7 +2,7 @@ export const STAR_IT = [
   {
     n: 1,
     titolo: "Capacità relazionali e lavoro di squadra",
-    stato: "lacuna",
+    stato: "solida",
     s: "Nello stesso periodo mi sono trovata a lavorare su registri linguistici molto diversi: raccontavo al pubblico generale i progetti pilota della Fondazione DARE, mentre in Medalyst dovevo far capire concetti di test automation a persone senza background informatico, e prima ancora, a Universo, coordinavo tirocinanti internazionali e rifugiati.",
     t: "Passare da un registro tecnico a uno accessibile senza perdere precisione, a seconda di chi avevo davanti.",
     a: "Ho trasformato aggiornamenti tecnici sui progetti pilota di DARE in contenuti comprensibili per un pubblico ampio. In Medalyst ho documentato i processi QA perché fossero utilizzabili anche da chi non aveva esperienza tecnica. A Universo ho adattato il mio modo di comunicare a seconda dell'interlocutore.",
@@ -56,7 +56,7 @@ export const STAR_IT = [
   {
     n: 7,
     titolo: "Collaborazione università-impresa e open innovation",
-    stato: "lacuna",
+    stato: "parziale",
     s: "Alla Fondazione DARE il consorzio gestiva ReActorPro, una scuola di imprenditorialità per ricercatori, realizzata con il Competence Center BI-REX e G-Factor (Fondazione Golinelli), per trasformare progetti di ricerca in imprese.",
     t: "Comunicare al pubblico esterno un programma che univa ricerca e impresa.",
     a: "Ho seguito e diffuso i contenuti su Exposanità e sul percorso di accelerazione DARE con BI-REX, lavorando accanto a quello che oggi chiamerei trasferimento tecnologico, con un ruolo comunicativo.",
@@ -74,7 +74,7 @@ export const STAR_IT = [
   {
     n: 9,
     titolo: "Applicativi di elaborazione dati",
-    stato: "lacuna",
+    stato: "solida",
     s: "In più ruoli mi sono trovata a dover ricavare un'informazione utile da dati grezzi.",
     t: "Passare dal dato grezzo a un risultato leggibile e misurabile.",
     a: "Per la conferenza ELTE ho raccolto dati su corsi di due atenei. In DARE ho analizzato il log di disseminazione. In Medalyst ho costruito una skill Claude che ha triplicato la velocità di aggiornamento del database dei test.",
@@ -83,7 +83,7 @@ export const STAR_IT = [
   {
     n: 10,
     titolo: "Apprendere rapidamente un dominio nuovo",
-    stato: "lacuna",
+    stato: "solida",
     s: "Il mio percorso è passato dagli studi umanistici, all'insegnamento, all'informatica e QA, fino al trasferimento tecnologico.",
     t: "Diventare operativa in un dominio nuovo in tempi brevi, ogni volta.",
     a: "In Medalyst sono passata da zero conoscenza di test automation a un repository di oltre 650 test case e due suite automatizzate, in pochi mesi. Per questo colloquio ho letto tre regolamenti e una quindicina di documenti tecnici in meno di una settimana.",
@@ -92,7 +92,7 @@ export const STAR_IT = [
   {
     n: 11,
     titolo: "Rigore documentale e informazioni strutturate",
-    stato: "lacuna",
+    stato: "parziale",
     s: "In Medalyst non esisteva ancora un sistema per organizzare i test case dell'applicazione.",
     t: "Costruire da zero un'architettura di dati che altri potessero usare.",
     a: "Ho progettato in Qase.io un registro di chiavi e un sistema di archiviazione, mantenuto piani e run di test secondo pratiche standard, collegato i risultati alla CI.",
@@ -101,7 +101,7 @@ export const STAR_IT = [
   {
     n: 12,
     titolo: "Disseminazione e promozione dei risultati",
-    stato: "lacuna",
+    stato: "solida",
     s: "Alla Fondazione DARE la presenza digitale dell'organizzazione era da costruire, non da mantenere.",
     t: "Far crescere una comunità online da zero, in un ambito non naturalmente virale.",
     a: "Ho costruito il sito WordPress e gestito i canali social, pianificando contenuti e campagne con strumenti AI, in italiano e inglese.",
@@ -111,9 +111,9 @@ export const STAR_IT = [
 
 export const STAR_EN = [
   {
-    n: 1,
+    n: 4,
     titolo: "Interpersonal skills and teamwork",
-    stato: "lacuna",
+    stato: "solida",
     s: "During the same period I worked across very different registers: explaining DARE Foundation's pilot projects to a general audience, making QA concepts clear to non-technical colleagues at Medalyst, and, earlier, coordinating international interns and refugees at Universo.",
     t: "Move between a technical register and an accessible one without losing precision.",
     a: "I turned DARE's technical updates into content a general audience could follow. At Medalyst I documented QA processes so non-technical colleagues could use them. At Universo I adjusted how I communicated depending on who I was talking to.",
@@ -138,9 +138,9 @@ export const STAR_EN = [
     r: "I already understood how a public Italian university operates day to day. Reading UniTo's regulations was applying something I knew, not discovering it from scratch.",
   },
   {
-    n: 4,
+    n: 1,
     titolo: "Mapping and assessing research potential",
-    stato: "parziale",
+    stato: "solida",
     s: "As Communications Officer for DARE Foundation, I received pilot project updates through email and informal contact, inside a consortium of eight universities, INFN, hospitals and IRCCS institutes, companies like Exprivia and Engineering, and foundations like GIMBE.",
     t: "Turn unstructured information into a usable dataset.",
     a: "I worked out the questions to ask for each project and contact, built a form feeding answers into linked Excel files, kept a historical archive. I did the same for course data from Bologna and ELTE ahead of my ELTE Young Researchers' Conference talk.",
@@ -158,7 +158,7 @@ export const STAR_EN = [
   {
     n: 6,
     titolo: "Valorisation schemes, PoC and PoV",
-    stato: "solida",
+    stato: "parziale",
     s: "While preparing for this interview I had to build the picture of PoC and PoV schemes from scratch, without direct management experience.",
     t: "Get to know them well enough to speak with confidence, backed by real numbers.",
     a: "I read the monitoring report and impact analysis of the national PoC scheme, checked UniTo's ranking, built a comparison page between PoC and PoV.",
@@ -167,7 +167,7 @@ export const STAR_EN = [
   {
     n: 7,
     titolo: "University-industry collaboration, open innovation",
-    stato: "lacuna",
+    stato: "parziale",
     s: "At DARE Foundation, the consortium ran ReActorPro, an entrepreneurship school for researchers, delivered with BI-REX Competence Center and G-Factor (Fondazione Golinelli), to turn research into companies.",
     t: "Communicate a programme bridging research and business to an external audience.",
     a: "I followed and disseminated content around Exposanità and DARE's acceleration path with BI-REX, working alongside what I would now call technology transfer, in a communications role.",
@@ -185,7 +185,7 @@ export const STAR_EN = [
   {
     n: 9,
     titolo: "Data processing tools",
-    stato: "lacuna",
+    stato: "solida",
     s: "In more than one role I had to turn raw, unusable data into something useful.",
     t: "Move from raw data to a readable, measurable result.",
     a: "For the ELTE conference I collected course data from two universities. At DARE I analysed the dissemination log. At Medalyst I built a Claude skill that tripled database update speed.",
@@ -194,7 +194,7 @@ export const STAR_EN = [
   {
     n: 10,
     titolo: "Learning a new domain quickly",
-    stato: "lacuna",
+    stato: "solida",
     s: "My path moved from humanities studies, to teaching, to software and QA, to technology transfer.",
     t: "Become operational in a new domain in a short time, every time.",
     a: "At Medalyst I went from zero test automation knowledge to a 650-case repository and two automated suites, within months. For this interview I read three regulations and about fifteen technical documents in under a week.",
@@ -203,7 +203,7 @@ export const STAR_EN = [
   {
     n: 11,
     titolo: "Documentation discipline, structured information",
-    stato: "lacuna",
+    stato: "solida",
     s: "At Medalyst there was no system yet for organising the application's test cases.",
     t: "Build a data architecture from scratch that other people could use.",
     a: "I designed a key registry and archiving system in Qase.io, maintained test plans and runs following standard practices, wired results into CI.",
@@ -212,7 +212,7 @@ export const STAR_EN = [
   {
     n: 12,
     titolo: "Dissemination and promotion of results",
-    stato: "lacuna",
+    stato: "solida",
     s: "At DARE Foundation, the organisation's digital presence had to be built, not maintained.",
     t: "Grow an online community from nothing, in a field that isn't naturally viral.",
     a: "I built the WordPress site and managed social channels, planning content and campaigns with AI tools, in Italian and English.",
